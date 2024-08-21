@@ -3,6 +3,14 @@ body {
     color:black;
 }
 
+#red {
+    color:red;
+}
+
+#green {
+    color: green;
+}
+
 .left {
     font-size:1.5em;
     
