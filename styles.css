@@ -16,13 +16,25 @@ body {
     
 }
 
+.image {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:20px
+}
+
+.image img {
+    width: 30%;
+    height:500px;
+    border-radius:8px;
+}
+
+
 .right {
     position: absolute; /* Positions the container relative to the screen */
     top: 0; /* Aligns it to the top */
     right: 0; /* Aligns it to the right */
     display: flex;
-    flex-direction: row; /* Stack items vertically */
-    justify-content: flex-start; /* Aligns items at the top */
-    align-items: flex-end; /* Aligns items to the right */
     gap: 10px; /* Adds space between items */
 }
