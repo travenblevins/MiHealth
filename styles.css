@@ -1,8 +1,8 @@
 body {
     background: lightgray;
     color:black;
+    background-image:url(https://www.toptal.com/designers/subtlepatterns/uploads/triangles_pattern.png)
 }
-
 #red {
     color:red;
 }
@@ -18,8 +18,8 @@ body {
 
 .image {
     display:flex;
-    justify-content:space-between;
-    align-items:center;
+    justify-content:flex-end;
+    align-items:right;
     flex-wrap:wrap;
     gap:20px
 }
