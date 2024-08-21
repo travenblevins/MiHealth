@@ -3,6 +3,11 @@ body {
     color:black;
 }
 
+.left {
+    font-size:1.5em;
+    
+}
+
 .right {
     position: absolute; /* Positions the container relative to the screen */
     top: 0; /* Aligns it to the top */
