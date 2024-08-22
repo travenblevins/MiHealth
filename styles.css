@@ -3,6 +3,7 @@ body {
     color:black;
     background-image:url(https://www.toptal.com/designers/subtlepatterns/uploads/triangles_pattern.png)
 }
+
 #red {
     color:red;
 }
@@ -12,30 +13,37 @@ body {
 }
 
 .left {
-    font-size:1.5em;
-    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
 }
 
 .image {
     display:flex;
-    justify-content:flex-end;
-    align-items:right;
+    justify-content:flex-start;
+    align-items:center;
     flex-wrap:wrap;
     gap:20px
 }
 
 .image img {
+    position:relative;
     width: 30%;
     height:500px;
     border-radius:8px;
 }
 
 .right {
+    position:absolute;
     display:flex;
     justify-content:flex-end;
-    align-items: flex-end;
-    gap:10px;
+    align-items:flex-start;
     top:0;
     right:0;
-    position:absolute;
+    gap:10px;
+}
+
+.colored-word {
+    position:relative;
 }
