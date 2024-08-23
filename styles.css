@@ -20,8 +20,9 @@ body {
 }
 
 .image {
+    position:relative;
     display:flex;
-    justify-content:flex-start;
+    justify-content:flex-end;
     align-items:center;
     flex-wrap:wrap;
     gap:20px
