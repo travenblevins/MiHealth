@@ -22,31 +22,37 @@ html, body {
 }
 
 .image {
-    position:fixed;
+    position:relative;
     display:flex;
     justify-content:flex-end;
     align-items:center;
     flex-wrap:wrap;
-    gap:20px;
-    top:100px;
+    gap:200px;
 }
 
-.image img {
-    position:static;
-    top:300px;
-    width: 20%;
-    height:500px;
+img {
+    position:absolute;
+    width:250px;
+    height:400px;
     border-radius:8px;
 }
 
-.right {
+.image-text {
     position:absolute;
+    background-color:lightblue;
+    justify-content:space-between;
+    top:325px;
+}
+
+.right {
+    position:fixed;
     display:flex;
     justify-content:flex-end;
     align-items:flex-start;
     top:0;
     right:0;
     gap:10px;
+    margin:5px
 }
 
 .colored-word {
